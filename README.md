@@ -1,4 +1,4 @@
-# Assignment 4
+# File uploads and offline work
 
 
 
@@ -75,20 +75,4 @@ Your final task in the assignment is to add an offline data enrichment process t
 
 When your consumer is working correctly, you should be able to launch one or more instances of the consumer running alongside your API server, the RabbitMQ daemon, and the MongoDB server, and you should be able to see the consumers processing photos as they're uploaded.  Note that only the RabbitMQ daemon and the MongoDB server need to be run within Docker containers.  The API server and RabbitMQ consumer(s) can run either in Docker or directly on your host machine.
 
-## Submission
 
-We'll be using GitHub Classroom for this assignment, and you will submit your assignment via GitHub.  Just make sure your completed files are committed and pushed by the assignment's deadline to the master branch of the GitHub repo that was created for you by GitHub Classroom.  A good way to check whether your files are safely submitted is to look at the master branch your assignment repo on the github.com website (i.e. https://github.com/osu-cs493-sp22/assignment-4-YourGitHubUsername/). If your changes show up there, you can consider your files submitted.
-
-## Grading criteria
-
-This assignment is worth 100 total points, broken down as follows:
-
-  * 20 points: API supports image uploads
-
-  * 20 points: Uploaded images are stored in GridFS
-
-  * 20 points: API uses an offline process powered by RabbitMQ to generate thumbnail images
-
-  * 20 points: All thumbnail images are correctly stored in GridFS and "linked" to their corresponding original photo in the datavase
-
-  * 20 points: All photos and thumbnails are available for download using the URL formats described above
