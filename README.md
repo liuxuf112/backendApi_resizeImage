@@ -1,7 +1,6 @@
 # Assignment 4
 
-**Assignment due at 11:59pm on Tuesday 5/31/2022**<br/>
-**Demo due by 5:00pm on Friday 6/10/2022**
+
 
 The goal of this assignment is to incorporate file storage into our API and to start using RabbitMQ to perform some basic offline data enrichment.  There are a few parts to this assignment, described below.
 
